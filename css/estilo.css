@@ -5,8 +5,159 @@
 
 }
 
+/*Section com os cartões e inputs de dados (elemento pai*/
+.section_cartoes_dados {
+    display: flex;
+
+}
 
 
+
+    /*IMAGENS DOS CARTÕES*/
+
+/*1º Article com as imagens dos cartões*/
+.article_img_cartoes {
+
+
+}
+
+/*Div imagem da frente do cartão*/
+.div_img_frente_cartao {
+
+
+}
+
+/*Imagem da frente do cartão*/
+.img_frente_cartao {
+
+
+}
+
+/*Div imagem de trás do cartão*/
+.div_img_tras_cartao {
+
+
+}
+
+/*Imagem de trás do cartão*/
+.img_tras_cartao {
+ 
+    
+}
+
+
+    /*INSERÇÃO DE DADOS*/
+
+/*2º Article com os dados a serem digitados pelo usuário*/
+.article_dados {
+
+
+}
+
+/*Label pro Cardholder Name , Exp. Date (MM/YY) e CVC*/
+.label_nome {
+
+
+}
+
+
+input {
+
+}
+
+/*Pra tirar as setas do input*/
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+} 
+
+/*Label pro Card Number*/
+.label_numero {
+
+
+}
+
+
+
+/*Div com label e inputs Exp. Date e cvc (elemento pai do exp, date e cvc*/
+.div_exp_date_cvc {
+    display: flex;
+
+}
+
+/*Div só com o exp e date*/
+.div_exp_date {
+
+
+}
+/*Label Exp. Date (MM/YY)*/
+.label_exp_date {
+
+
+}
+
+/*Input pro mês*/
+.input_mes {
+
+
+}
+
+/*Input pro ano*/
+.input_ano {
+
+
+}
+
+
+
+/*Div só com CVC*/
+
+/*Label CVC*/
+.label_cvc {
+
+    
+}
+
+/*Input CVC*/
+.input_cvc {
+
+}
+
+
+
+    /*BOTÃO*/
+
+.div_botao {
+
+
+}
+
+/*Botão*/
+button {
+
+
+}
+
+
+
+    /*FOOTER*/
+
+/*Copyright*/
+.p_copyright {
+
+
+}
+
+/*Autora*/
+.attribution {
+
+
+}
+
+.attribution_link {
+
+    
+}
 
 
 
