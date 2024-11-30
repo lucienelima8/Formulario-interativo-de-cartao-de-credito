@@ -1,8 +1,40 @@
 /* /*RESPONSIVIDADE  telas até 1115px**/
 @media screen and (max-width: 1115px) {
 
+    body {
+        /*Pra diminuir a imagem lateral*/
+        background-size: 35% 100%; /*largura altura*/
+
+
+    }
+
+
+        /*SECTION COM CARTÕES*/
+
+
+    /*Section com os cartões e inputs de dados (elemento pai*/
+    .section_imgcartoes_dados {
+        gap: 2rem;
+
+    }
+
+    /*IMAGENS DOS CARTÕES*/
+
+    /*1º Article com as imagens dos cartões*/
+    .article_img_cartoes {
+        margin-right: 3rem;
+        margin-left: -3rem;
+
+    }
+
+    /*INSERÇÃO DE DADOS*/
+
+    
+
 
 }
+
+
 
 
 /*RESPONSIVIDADE TABLET*/
@@ -10,12 +42,139 @@
 
 @media screen and (min-width: 431px) and (max-width: 932px) {
 
+    body {
+        /*Pra diminuir a imagem lateral*/
+        background-size: 35% auto; /*largura altura*/
+
+
+    }
+
+        /*SECTION COM CARTÕES*/
+
+
+    /*Section com os cartões e inputs de dados (elemento pai*/
+    .section_imgcartoes_dados {
+        gap: 1rem;
+        margin-top: 4rem;
+
+    }
+
+        /*IMAGENS DOS CARTÕES*/
+
+    /*1º Article com as imagens dos cartões*/
+    .article_img_cartoes {
+        margin-right: 1rem;
+        margin-left: -4rem;
+
+    }
+
+    /*Imagem da frente do cartão*/
+    .img_frente_cartao {
+        width: 15rem;
+        height: auto;
+
+        margin-left: .2rem;
+        margin-bottom: -.6rem;
+
+    }
+
+    /*Div imagem de trás do cartão*/
+    .div_img_tras_cartao {
+        margin-left: 8rem;
+        margin-bottom: 0;
+
+
+    }
+
+    /*Imagem de trás do cartão*/
+    .img_tras_cartao {
+        width: 15rem;
+        height: auto;
+
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+
+     
+    
+    }
+
+
+        /*INSERÇÃO DE DADOS*/
+    
+    /*2º Article com os dados a serem digitados pelo usuário*/
+    .article_dados {
+        margin-top: 1rem;
+        align-items: center;
+
+    }
+
+    /*Todos label*/
+    label { 
+        text-transform: uppercase;
+        font-size: .7rem;
+
+    }
+
+    /*Todos inputs*/
+    input {
+        margin-top: .2rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding-left: .3rem;
+
+
+    }
+
+
+    /*Todos os placeholders*/
+    ::placeholder {
+        padding-left: .3rem;
+        font-size: 1rem;
+    }
+
+
+
+
+
+        /*FOOTER*/
+
+    .div_footer {
+        margin-top: 1rem;
+        margin-bottom: 0;
+
+    }
+
+    /*Copyright*/
+    .p_copyright {
+        font-size: 10px; 
+        text-align: center;
+
+
+    }
+
+    /*Autora*/
+    .attribution {
+        font-size: 10px; 
+        text-align: center;
+
+
+    }
+
 
 }
+
+
+
+
+
+
+
 
 /*RESPONSIVIDADE CELULAR vertical*/
 
 @media screen and (max-width: 430p) {
+
+   
 
 
 }
