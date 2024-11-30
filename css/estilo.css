@@ -1,3 +1,6 @@
+/*Importando font do google fonts: Space Grotesk */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +9,25 @@
 }
 
 body {
-    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
+
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+    /*Font importada do google fonts: Space Grotesk*/
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
 
     /*Imagem de fundo na lateral esquerda*/
     background-image: url(../images/bg-main-desktop.png);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: left center;
+    
 
 }
 
@@ -41,7 +54,7 @@ body {
 
 /*Div imagem da frente do cartão*/
 .div_img_frente_cartao {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-left: 6rem;
 
 
@@ -56,13 +69,14 @@ body {
 /*Div imagem de trás do cartão*/
 .div_img_tras_cartao {
     margin-left: 10rem;
+    margin-bottom: 0;
 
 
 }
 
 /*Imagem de trás do cartão*/
 .img_tras_cartao {
- 
+     
     
 }
 
@@ -71,7 +85,7 @@ body {
 
 /*2º Article com os dados a serem digitados pelo usuário*/
 .article_dados {
-    margin-top: 6rem;
+    margin-top: 4rem;
 
 
 }
@@ -88,9 +102,18 @@ input {
     margin-top: .2rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    padding-left: .3rem;
 
 
 }
+
+
+/*Todos os placeholders*/
+::placeholder {
+    padding-left: .3rem;
+    font-size: 1rem;
+}
+
 
 /*Mudar a borda de todos os inputs ao clicar com o mousse*/
 input:focus {
@@ -203,12 +226,9 @@ input[type=number]::-webkit-inner-spin-button {
     padding-bottom: .3rem;
 
     /*padding-right: 12rem;*/
-
-
-    
+ 
 
 }
-
 
 
     /*BOTÃO*/
@@ -217,33 +237,53 @@ input[type=number]::-webkit-inner-spin-button {
     margin-top: 2rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 
 }
 
 /*Botão*/
-button {
+.btn_tex {
     font-size: 1.2rem;
     letter-spacing: .1rem;
-    padding: .4rem 8rem .4rem 8rem;
+    padding: .4rem 10rem .4rem 8rem;
     border-radius: 5px;
     cursor: pointer;
     border: none;
     background-color: rgb(59, 2, 59);
     color: white;
+    /*width: auto;*/
+    text-align: center;
 
+    
 }
 
-button:hover {
+.btn_tex:hover {
     background-color: rgba(59, 2, 59, 0.781);
 }
 
 
 
+
+
     /*FOOTER*/
+
+.div_footer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0;
+
+
+
+}
 
 /*Copyright*/
 .p_copyright {
+    font-size: 11px; 
+    text-align: center;
 
 
 }
