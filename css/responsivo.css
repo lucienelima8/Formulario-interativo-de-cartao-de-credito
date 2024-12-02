@@ -103,7 +103,7 @@
     
     /*2º Article com os dados a serem digitados pelo usuário*/
     .article_dados {
-        margin-top: 1rem;
+        margin-top: -1rem;
         align-items: center;
 
     }
@@ -111,7 +111,10 @@
     /*Todos label*/
     label { 
         text-transform: uppercase;
-        font-size: .7rem;
+        /*font-size: .7rem;*/
+        margin-top: -1rem;
+        font-size: .6rem;
+
 
     }
 
@@ -121,6 +124,8 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         padding-left: .3rem;
+        font-size: .7rem;
+        margin-bottom: -1rem;
 
 
     }
@@ -129,8 +134,78 @@
     /*Todos os placeholders*/
     ::placeholder {
         padding-left: .3rem;
-        font-size: 1rem;
+        font-size: .7rem;
+
     }
+
+
+    /*Input nome*/
+    #nome_titular { 
+        padding-right: 6rem;
+        /*padding-top: .3rem;
+        padding-bottom: .3rem;*/
+
+    }
+
+    /*Input número cartão*/
+    #numero_cartao {
+        padding-right: 6rem;
+
+
+    }
+
+    /*Label Exp. Date (MM/YY)*/
+    .label_exp_date {
+        font-size: .6rem;
+
+    }
+
+    /*Input pro mês*/
+    .input_mes {
+        width: 3rem;
+
+    }
+
+    /*Input pro ano*/
+    .input_ano {
+        width: 3rem;
+
+        margin-right: .1rem;
+        margin-left: .2rem;
+
+    }
+
+
+    /*Div só com CVC*/
+    .div_cvc {
+        margin-left: 0;
+
+    }
+
+
+    /*Label CVC*/
+    .label_cvc {
+        /*font-size: .6rem;*/
+    
+   
+    }
+
+    /*Input CVC*/
+    .input_cvc {
+        width: 7rem;
+
+
+    }
+
+        /*BOTÃO*/
+    
+    
+
+    
+
+
+
+
 
 
 
