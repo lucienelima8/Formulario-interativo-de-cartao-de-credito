@@ -1,4 +1,5 @@
-/* /*RESPONSIVIDADE  telas até 1115px**/
+
+/*RESPONSIVIDADE  telas até 1115px*/
 @media screen and (max-width: 1115px) {
 
     body {
@@ -31,16 +32,177 @@
 
     
 
+}
+
+
+
+
+
+
+
+/*RESPONSIVIDADE CELULAR horizontal 932px*/
+
+@media screen and (max-width: 932px) {
+
+    body {
+        /*Pra diminuir a imagem lateral*/
+        background-size: 30% 100%; /*largura altura*/
+
+
+    }
+
+    /*SECTION COM CARTÕES*/
+
+
+    /*Section com os cartões e inputs de dados (elemento pai*/
+    .section_imgcartoes_dados {
+        /*gap: .1rem;*/
+        gap: 5rem;
+        margin-top: 1rem;
+
+    }
+
+    /*IMAGENS DOS CARTÕES*/
+
+    /*1º Article com as imagens dos cartões*/
+    .article_img_cartoes {
+        margin-right: 1rem;
+        margin-left: -3rem;
+
+    }
+
+     /*IMAGENS DOS CARTÕES*/
+
+    /*1º Article com as imagens dos cartões*/
+    .article_img_cartoes {
+        margin-right: 1rem;
+        margin-left: -3rem;
+
+    }
+
+    /*Imagem da frente do cartão*/
+    .img_frente_cartao {
+        width: 20rem;
+        height: auto;
+
+        margin-top: .7rem;
+        margin-left: .2rem;
+        margin-bottom: -.6rem;
+
+    }
+
+    /*Div imagem de trás do cartão*/
+    .div_img_tras_cartao {
+        margin-left: 8rem;
+        margin-bottom: 0;
+
+
+    }
+
+    /*Imagem de trás do cartão*/
+    .img_tras_cartao {
+        width: 20rem;
+        height: auto;
+
+        margin-left: .7rem;
+        margin-bottom: -1rem;
+         
+    }
+
+    /*INSERÇÃO DE DADOS*/
+    
+    /*2º Article com os dados a serem digitados pelo usuário*/
+    .article_dados {
+        margin-top: 3rem;
+
+    }
+
+    /*Todos label*/
+    label {
+        font-size: .68rem;
+        margin-top: -2rem;
+    }
+
+    /*Todos inputs*/
+    input {
+        font-size: .7rem;
+        margin-bottom: -1rem;
+    }
+
+    /*Todos os placeholders*/
+    ::placeholder {
+        font-size: .69rem;
+
+    }
+
+    /*Input nome*/
+    #nome_titular {
+
+        
+    }
+
+    /*Label Exp. Date (MM/YY)*/
+
+     /*Input pro mês*/
+     .input_mes {
+        width: 2.8rem;
+    
+    }
+
+    /*Input pro ano*/
+    .input_ano {
+        width: 2.8rem;
+
+        margin-right: .1rem;
+        margin-left: .1rem;
+
+    }
+
+    /*Div só com CVC*/
+    /*Label CVC*/
+    .label_cvc {
+        margin-left: .1rem;
+    
+    }
+
+    /*Input CVC*/
+    .input_cvc {
+        margin-left: .1rem;
+        width: 8rem;
+
+
+    }
+
+    /*Botão*/
+    .btn_tex {
+        margin-top: -2rem;
+        padding: .4rem 5rem .4rem 5rem;
+
+
+    }
+
+            /*FOOTER*/
+
+    .div_footer {
+        margin-top: 1rem;
+        margin-bottom: 0;
+
+        justify-content: center;
+    }
+
 
 }
 
 
 
 
-/*RESPONSIVIDADE TABLET*/
-/*RESPONSIVIDADE CELULAR horizontal*/
 
-@media screen and (min-width: 431px) and (max-width: 932px) {
+
+/*RESPONSIVIDADE CELULAR horizontal 700px*/
+
+/*@media screen and (min-width: 431px) and (max-width: 932px) {*/
+@media screen and (max-width: 700px) {
+
 
     body {
         /*Pra diminuir a imagem lateral*/
@@ -199,22 +361,23 @@
 
         /*BOTÃO*/
     
+    .div_botao {
+
+    }
+
+    /*Botão*/
+     .btn_tex {
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        padding: .4rem 5rem .4rem 5rem;
+
+    }    
     
-
-    
-
-
-
-
-
-
-
-
 
         /*FOOTER*/
 
     .div_footer {
-        margin-top: 1rem;
+        margin-top: 0;
         margin-bottom: 0;
 
     }
@@ -237,8 +400,6 @@
 
 
 }
-
-
 
 
 
