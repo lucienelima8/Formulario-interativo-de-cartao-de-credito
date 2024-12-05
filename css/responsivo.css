@@ -556,6 +556,28 @@
 
     }
 
+    /*Div só com CVC*/
+    .div_cvc {
+        margin-left: 1rem;
+
+    }
+
+    /*Input CVC*/
+    .input_cvc {
+        width: 10rem;
+
+    }
+
+
+    /*BOTÃO*/
+
+    .div_botao {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 
 
