@@ -55,6 +55,8 @@ body {
 
 }
 
+/*Frente do cartão*/
+
 /*Div imagem da frente do cartão*/
 .div_img_frente_cartao {
     margin-bottom: 1rem;
@@ -69,6 +71,76 @@ body {
 
 }
 
+/*Logo da frente do cartão*/
+.logo_card {
+    width: 6rem;
+    height: auto;
+    top: 3rem;
+    left: 8rem;
+    
+    position: absolute;
+    z-index: 2;
+
+}
+
+/*Número do display frente do cartão*/
+.numero_display_card {
+    margin-left: 1rem;
+    margin-top: -7.3rem;
+    margin-bottom: 1rem;
+
+    width: 100%;
+
+    font-size: 1.7rem;
+    color: white;
+
+    z-index: 2;
+
+
+}
+
+/*Div com o nome e vencimento do cartão (div pai)*/
+.div_display_nome_vencto {
+    display: flex;
+    flex-direction: row;
+
+    gap: 2rem;
+
+    font-size: 1rem;
+
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+
+}
+
+/*Nome do display frente do cartão*/
+.nome_display_card {
+    text-transform: uppercase;
+    margin-left: 1rem;
+    color: white;
+
+}
+
+/*Vencimento do cartão na frente do cartão*/
+.vencto_card {
+    /*letter-spacing: 2px;*/
+    color: white;
+
+    /*margin-top: 2rem;*/
+    /*margin-bottom: 2rem;*/
+
+    z-index: 1;
+    /*position: absolute;*/
+
+    margin-left: 8rem;
+
+
+}
+
+
+
+/*Verso do cartão*/
+
 /*Div imagem de trás do cartão*/
 .div_img_tras_cartao {
     margin-left: 10rem;
@@ -81,6 +153,23 @@ body {
 .img_tras_cartao {
      
     
+}
+
+/*3 números no verso do cartão*/
+.cvc_display_card {
+    font-size: 1rem;
+    color: white;
+    /*letter-spacing: .7rem;*/
+
+    margin-left: 22rem;
+    margin-top: -8.5rem;
+    margin-right: 5rem;
+    margin-bottom: 7rem;
+    
+    /*z-index: 2;*/
+    
+    /*position: absolute;*/
+
 }
 
 

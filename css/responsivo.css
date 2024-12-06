@@ -80,6 +80,10 @@
 
     }
 
+
+    /*Frente do cartão*/
+
+
     /*Imagem da frente do cartão*/
     .img_frente_cartao {
         width: 20rem;
@@ -98,6 +102,8 @@
 
 
     }
+
+    /*Verso do cartão*/
 
     /*Imagem de trás do cartão*/
     .img_tras_cartao {
@@ -230,6 +236,9 @@
 
     }
 
+    /*Frente do cartão*/
+
+
     /*Imagem da frente do cartão*/
     .img_frente_cartao {
         width: 15rem;
@@ -247,6 +256,8 @@
 
 
     }
+
+    /*Verso do cartão*/
 
     /*Imagem de trás do cartão*/
     .img_tras_cartao {
@@ -456,6 +467,8 @@
 
     }
 
+    /*Frente do cartão*/
+
     /*Imagem da frente do cartão*/
     .img_frente_cartao {
         width: 16.5rem;
@@ -488,6 +501,8 @@
 
 
     }
+
+    /*Verso do cartão*/
 
     /*Imagem de trás do cartão*/
     .img_tras_cartao {
