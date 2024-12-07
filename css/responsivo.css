@@ -28,7 +28,15 @@
 
     }
 
-    /*INSERÇÃO DE DADOS*/
+
+    /*Frente do cartão*/
+
+    /*Logo da frente do cartão*/
+    .logo_card {
+        width: 4rem;
+        left: 4rem;
+
+    }
 
     
 
@@ -57,7 +65,7 @@
     /*Section com os cartões e inputs de dados (elemento pai*/
     .section_imgcartoes_dados {
         /*gap: .1rem;*/
-        gap: 5rem;
+        gap: 1rem;
         margin-top: 1rem;
 
     }
@@ -68,19 +76,12 @@
     .article_img_cartoes {
         margin-right: 1rem;
         margin-left: -3rem;
-
-    }
-
-     /*IMAGENS DOS CARTÕES*/
-
-    /*1º Article com as imagens dos cartões*/
-    .article_img_cartoes {
-        margin-right: 1rem;
-        margin-left: -3rem;
+        margin-top: -1rem;
 
     }
 
 
+    
     /*Frente do cartão*/
 
 
@@ -89,7 +90,7 @@
         width: 20rem;
         height: auto;
 
-        margin-top: .7rem;
+        margin-top: 1rem;
         margin-left: .2rem;
         margin-bottom: -.6rem;
 
@@ -103,6 +104,30 @@
 
     }
 
+
+    /*Logo da frente do cartão*/
+    .logo_card {
+        width: 3rem;
+        left: 4rem;
+        top: 1.6rem;
+
+    }
+
+    /*Número do display frente do cartão*/
+    .numero_display_card  {
+        font-size: 1.3rem;
+        margin-top: -6rem;
+    
+    }
+
+    /*Div com o nome e vencimento do cartão (div pai)*/
+    .div_display_nome_vencto {
+        font-size: .8rem;
+        gap: .5rem;
+    }
+
+
+
     /*Verso do cartão*/
 
     /*Imagem de trás do cartão*/
@@ -111,15 +136,17 @@
         height: auto;
 
         margin-left: .7rem;
-        margin-bottom: -1rem;
+        margin-bottom: .1rem;
          
     }
+
 
     /*INSERÇÃO DE DADOS*/
     
     /*2º Article com os dados a serem digitados pelo usuário*/
     .article_dados {
         margin-top: 3rem;
+        margin-left: -4rem;
 
     }
 
