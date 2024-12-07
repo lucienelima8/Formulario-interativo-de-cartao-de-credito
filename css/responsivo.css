@@ -277,7 +277,7 @@
 
     /*Logo da frente do cartão*/
     .logo_card {
-        top: 4.3rem;
+        top: 3rem;
         left: 3rem;
 
     }
@@ -483,12 +483,15 @@
         /*Imagem de fundo em cima e no centro*/
         background-image: url(../images/bg-main-mobile.png);
         background-repeat: no-repeat;
-        background-size: 100% 200px;  /*largura altura*/
+        background-size: 180% 240px;  /*largura altura*/
         background-position: top center;
 
         flex-direction: column;
 
         margin-right: 0;
+
+        letter-spacing: 1px;
+        
 
 
     }
@@ -500,7 +503,7 @@
     .section_imgcartoes_dados {
         flex-direction: column;
 
-        margin-top: 1rem;
+        margin-top: 2rem;
 
     }
 
@@ -511,23 +514,24 @@
         /* Torna o contêiner do cartão o ponto de referência para a imagem de trás */
         position: relative;
 
-
     }
+
+
+    /*Frente do cartão*/
 
     /*Div imagem da frente do cartão*/
     .div_img_frente_cartao {
-        margin-top: 6rem;
+        margin-top: 7rem;
         margin-left: 8rem;
 
 
 
     }
 
-    /*Frente do cartão*/
 
     /*Imagem da frente do cartão*/
     .img_frente_cartao {
-        width: 16.5rem;
+        width: 20rem;
 
         /* Para manter o fluxo normal, sem sobreposição */
         position: relative; 
@@ -544,7 +548,7 @@
         margin-bottom: 0;
         margin-right: -2rem;
         margin-top: 1rem;
-
+        
         
         /*Faz a imagem de trás aparecer em cima da imagem da frente*/
         position: absolute; 
@@ -564,7 +568,7 @@
     .img_tras_cartao {
         /*position: absolute;*/
 
-        width: 16.5rem;
+        width: 20rem;
 
         /*Garante que a imagem de trás seja sobreposta pela frente*/
         z-index: 2; 
@@ -572,20 +576,85 @@
     
     }
 
+    /*Logo da frente do cartão*/
+    .logo_card {
+        left: 9rem;
+        top: 9rem;
+
+    }
+
+    /*Número do display frente do cartão*/
+    .numero_display_card {
+        margin-left: 1.5rem;
+        margin-top: -5rem;
+
+        /*Para a numeração se sobrepor ao cartão*/
+        position: absolute; 
+
+        align-items: center;
+    
+    }
+  
+    /*Div com o nome e vencimento do cartão (div pai)*/
+    .div_display_nome_vencto {
+        display: flex;
+        flex-direction: row;
+        margin-top: -2rem;
+        margin-left: 1rem;
+
+        gap: -2rem;
+
+    }
+
+    /*Nome do display frente do cartão*/
+    .nome_display_card {
+        /*margin-left: -10rem;*/
+
+        position: absolute;
+
+        z-index: 2;
+    }
+
+    /*Vencimento do cartão na frente do cartão*/
+    .vencto_card {
+        margin-left: 12rem;
+
+        position: absolute;
+
+    }
+
+
+    /*Verso do cartão*/
+
+    /*3 números no verso do cartão*/
+    .cvc_display_card {
+        margin-left: 16rem;
+
+
+   }
+
+
+
+
+
     /*INSERÇÃO DE DADOS*/
  
     /*2º Article com os dados a serem digitados pelo usuário*/
     .article_dados {
         text-align: left;
-        margin-left: 3rem;
+        margin-left: 2rem;
+        margin-right: 0;
         margin-top: 4rem;
+
+        max-width: 100%;
+
 
     }
 
     /*Todos label*/
     label {
         text-transform: uppercase;
-        font-size: .8rem;
+        font-size: 1rem;
 
     }
 
@@ -595,7 +664,7 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         padding-left: .3rem;
-        font-size: .8rem;
+        font-size: 1rem;
 
 
     }    
@@ -604,13 +673,13 @@
     /*Todos os placeholders*/
     ::placeholder {
         padding-left: .3rem;
-        font-size: .8rem;
+        font-size: 1rem;
     
     }
 
     /*Input nome*/
     #nome_titular {
-        padding-right: 8rem;
+        padding-right: 14rem;
         padding-top: .3rem;
         padding-bottom: .3rem;
 
@@ -619,7 +688,7 @@
 
     /*Input número cartão*/
     #numero_cartao {
-        padding-right: 8rem;
+        padding-right: 14rem;
         padding-top: .3rem;
         padding-bottom: .3rem;
 
@@ -627,15 +696,38 @@
 
     }
 
-    /*Div só com CVC*/
-    .div_cvc {
-        margin-left: 1rem;
+    /*Div com label e inputs Exp. Date e cvc (elemento pai do exp, date e cvc*/
+    .div_exp_date_cvc {
+        gap: 0;
 
     }
+
+    /*Label Exp. Date (MM/YY)*/
+    .label_exp_date {
+        font-size: 1rem;
+        
+
+    }
+
+    /*Div só com CVC*/
+    .div_cvc {
+        margin-left: 2rem;
+        font-size: 1rem;
+
+    }
+
+    /*Label CVC*/
+    .label_cvc {
+        /*margin-left: 1rem;*/
+    
+   
+    }
+
 
     /*Input CVC*/
     .input_cvc {
         width: 10rem;
+
 
     }
 
@@ -643,13 +735,41 @@
     /*BOTÃO*/
 
     .div_botao {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
         align-items: center;
         justify-content: center;
     }
 
 
+    /*Botão*/
+    .btn_tex {
+        padding: .4rem 12rem .4rem 12rem;
+
+
+    }
+
+
+
+
+     /*FOOTER*/
+
+    .div_footer {
+        margin-top: 4rem;
+        align-items: center;
+
+    }
+
+    /*Copyright*/
+    .p_copyright {
+        text-align: center;
+    
+    }
+
+    /*Autora*/
+    .attribution {
+        text-align: center;
+    }
 
 
 
