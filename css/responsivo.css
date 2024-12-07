@@ -249,7 +249,7 @@
     /*Section com os cartões e inputs de dados (elemento pai*/
     .section_imgcartoes_dados {
         gap: 1rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
 
     }
 
@@ -333,8 +333,9 @@
     
     /*2º Article com os dados a serem digitados pelo usuário*/
     .article_dados {
-        margin-top: -1rem;
+        margin-top: 1rem;
         align-items: center;
+        margin-left: -11rem;
 
     }
 
@@ -408,7 +409,7 @@
 
     /*Div só com CVC*/
     .div_cvc {
-        margin-left: 0;
+        margin-left: 1rem;
 
     }
 
@@ -445,7 +446,7 @@
         /*FOOTER*/
 
     .div_footer {
-        margin-top: 0;
+        margin-top: 1rem;
         margin-bottom: 0;
 
     }
@@ -479,8 +480,6 @@
 @media screen and (max-width: 430px) {
 
     body {
-        
-
         /*Imagem de fundo em cima e no centro*/
         background-image: url(../images/bg-main-mobile.png);
         background-repeat: no-repeat;
