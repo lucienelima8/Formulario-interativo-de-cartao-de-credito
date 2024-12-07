@@ -233,7 +233,6 @@
 
 /*RESPONSIVIDADE CELULAR horizontal 700px*/
 
-/*@media screen and (min-width: 431px) and (max-width: 932px) {*/
 @media screen and (max-width: 700px) {
 
 
@@ -276,6 +275,39 @@
 
     }
 
+    /*Logo da frente do cartão*/
+    .logo_card {
+        top: 4.3rem;
+        left: 3rem;
+
+    }
+
+    /*Número do display frente do cartão*/
+    .numero_display_card {
+        font-size: 1rem;
+        margin-top: -4.3rem;
+        /*width: 80%;*/
+
+
+    }
+
+    /*Div com o nome e vencimento do cartão (div pai)*/
+    .div_display_nome_vencto {
+        font-size: .7rem;
+        margin-top: 1.6rem;
+
+       
+    }
+
+    /*Vencimento do cartão na frente do cartão*/
+    .vencto_card {
+        margin-left: 3.2rem;
+    }
+
+
+
+    /*Verso do cartão*/
+
     /*Div imagem de trás do cartão*/
     .div_img_tras_cartao {
         margin-left: 8rem;
@@ -283,8 +315,6 @@
 
 
     }
-
-    /*Verso do cartão*/
 
     /*Imagem de trás do cartão*/
     .img_tras_cartao {
