@@ -140,6 +140,19 @@
          
     }
 
+    /*Div pra colocar 3 números no verso do cartão*/
+    .cvc_display_card {
+
+
+    }
+
+    /*3 números verso do cartão*/
+    #id-cvc_card_display {
+
+
+    }
+
+
 
     /*INSERÇÃO DE DADOS*/
     
@@ -323,9 +336,19 @@
 
         margin-left: 1rem;
         margin-bottom: 2rem;
+         
+    }
 
-     
-    
+    /*Div pra colocar 3 números no verso do cartão*/
+    .cvc_display_card {
+
+
+    }
+
+    /*3 números verso do cartão*/
+    #id-cvc_card_display {
+
+
     }
 
 
@@ -542,40 +565,7 @@
 
     }
 
-    /*Div imagem de trás do cartão*/
-    .div_img_tras_cartao {
-        margin-left: 10rem;
-        margin-bottom: 0;
-        margin-right: -2rem;
-        margin-top: 1rem;
-        
-        
-        /*Faz a imagem de trás aparecer em cima da imagem da frente*/
-        position: absolute; 
-
-        /*Ajuste a posição vertical conforme necessário*/
-        top: 0; 
-
-        /*Ajuste a posição horizontal conforme necessário*/
-        left: 0; 
-
-
-    }
-
-    /*Verso do cartão*/
-
-    /*Imagem de trás do cartão*/
-    .img_tras_cartao {
-        /*position: absolute;*/
-
-        width: 20rem;
-
-        /*Garante que a imagem de trás seja sobreposta pela frente*/
-        z-index: 2; 
-
     
-    }
-
     /*Logo da frente do cartão*/
     .logo_card {
         left: 9rem;
@@ -624,15 +614,53 @@
     }
 
 
-    /*Verso do cartão*/
+     /*Verso do cartão*/
 
-    /*3 números no verso do cartão*/
+    /*Div imagem de trás do cartão*/
+    .div_img_tras_cartao {
+        margin-left: 10rem;
+        margin-bottom: 0;
+        margin-right: -2rem;
+        margin-top: 1rem;
+        
+        
+        /*Faz a imagem de trás aparecer em cima da imagem da frente*/
+        position: absolute; 
+
+        /*Ajuste a posição vertical conforme necessário*/
+        top: 0; 
+
+        /*Ajuste a posição horizontal conforme necessário*/
+        left: 0; 
+
+
+    }
+
+   
+    /*Imagem de trás do cartão*/
+    .img_tras_cartao {
+        /*position: absolute;*/
+
+        width: 20rem;
+
+        /*Garante que a imagem de trás seja sobreposta pela frente*/
+        z-index: 2; 
+
+    
+    }
+
+    /*div pra colocar os 3 números no verso do cartão*/
     .cvc_display_card {
         margin-left: 16rem;
 
 
    }
 
+   /*3 números verso do cartão*/
+    #id-cvc_card_display {
+            
+
+   }
 
 
 

@@ -155,7 +155,7 @@ body {
     
 }
 
-/*3 números no verso do cartão*/
+/*div pra colocar os 3 números no verso do cartão*/
 .cvc_display_card {
     font-size: 1rem;
     color: white;
@@ -169,6 +169,12 @@ body {
     /*z-index: 2;*/
     
     /*position: absolute;*/
+
+}
+
+/*3 números verso do cartão*/
+#id-cvc_card_display {
+    
 
 }
 
