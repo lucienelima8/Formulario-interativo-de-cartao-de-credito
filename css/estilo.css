@@ -174,7 +174,7 @@ body {
 
 /*3 números verso do cartão*/
 #id-cvc_card_display {
-    
+
 
 }
 
@@ -359,8 +359,20 @@ input[type=number]::-webkit-inner-spin-button {
 
 .btn_tex:hover {
     background-color: rgba(59, 2, 59, 0.781);
+
 }
 
+
+
+/*MENSAGEM MOSTRADA COM O JS APÓS O USUÁRIO PREENCHER COM SEUS DADOS*/
+
+/*Div com mensagem de verificação completada com sucesso*/
+
+.div_container_msgm_completa {
+    /*Pra não mostrar na tela porque vai mostrar depois que o usuário digitar os dasdos.*/
+    display: none;
+
+}
 
 
 

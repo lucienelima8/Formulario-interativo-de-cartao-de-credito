@@ -716,7 +716,7 @@
 
     /*Input nome*/
     #nome_titular {
-        padding-right: 14rem;
+        padding-right: 12rem;
         padding-top: .3rem;
         padding-bottom: .3rem;
 
@@ -725,7 +725,7 @@
 
     /*Input número cartão*/
     #numero_cartao {
-        padding-right: 14rem;
+        padding-right: 12rem;
         padding-top: .3rem;
         padding-bottom: .3rem;
 
@@ -780,7 +780,7 @@
 
     /*Botão*/
     .btn_tex {
-        padding: .4rem 12rem .4rem 12rem;
+        padding: .4rem 12rem .4rem 8rem;
 
 
     }
@@ -790,23 +790,29 @@
 
      /*FOOTER*/
 
+    footer {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     .div_footer {
         margin-top: 4rem;
         /*align-items: center;*/
-        text-align: center;
+        /*text-align: center;*/
 
     }
 
     /*Copyright*/
     .p_copyright {
-        text-align: center;
+        /*text-align: center;*/
 
     
     }
 
     /*Autora*/
     .attribution {
-        text-align: center;
+        /*text-align: center;*/
 
     }
 
