@@ -550,7 +550,7 @@
 
     /*Div imagem da frente do cartão*/
     .div_img_frente_cartao {
-        margin-top: 7rem;
+        margin-top: 8rem;
         margin-left: 8rem;
 
 
@@ -627,7 +627,7 @@
         margin-left: 10rem;
         margin-bottom: 0;
         margin-right: -2rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
         
         
         /*Faz a imagem de trás aparecer em cima da imagem da frente*/
@@ -765,7 +765,6 @@
     .input_cvc {
         width: 10rem;
 
-
     }
 
 
@@ -793,7 +792,8 @@
 
     .div_footer {
         margin-top: 4rem;
-        align-items: center;
+        /*align-items: center;*/
+        text-align: center;
 
     }
 
