@@ -148,6 +148,9 @@
 
     /*3 números verso do cartão*/
     #id-cvc_card_display {
+        color: white;
+        margin-top: 2rem;
+        margin-left: -6rem;
 
 
     }
@@ -347,6 +350,9 @@
 
     /*3 números verso do cartão*/
     #id-cvc_card_display {
+        color: white;
+        margin-top: 1.5rem;
+        margin-left: -10rem;
 
 
     }
@@ -469,7 +475,7 @@
         /*FOOTER*/
 
     .div_footer {
-        margin-top: 1rem;
+        margin-top: -1rem;
         margin-bottom: 0;
 
     }
@@ -658,6 +664,9 @@
 
    /*3 números verso do cartão*/
     #id-cvc_card_display {
+        color: white;
+        margin-top: .2rem;
+        margin-left: -.3rem;
             
 
    }
@@ -791,12 +800,14 @@
     /*Copyright*/
     .p_copyright {
         text-align: center;
+
     
     }
 
     /*Autora*/
     .attribution {
         text-align: center;
+
     }
 
 
