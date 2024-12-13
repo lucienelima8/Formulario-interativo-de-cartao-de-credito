@@ -43,12 +43,22 @@ function atualizar_cartao() {
 
 
 
+    /*Atualizar os inputs com os dados digitados pelo usuário*/
     
+    /*Atualizar com o nome digitado*/
+    document.getElementById("nome_titular").addEventListener("input", atualizar_cartao);
 
+    /*Atualizar com o número digitado*/
+    document.getElementById("numero_cartao").addEventListener("input", atualizar_cartao);
 
+    /*Atualizar com o mês digitado*/
+    document.getElementById("mes").addEventListener("input", atualizar_cartao);
 
+    /*Atualizar com o ano digitado*/
+    document.getElementById("ano").addEventListener("input", atualizar_cartao);
 
-
+    /*Atualizar com o cvc digitado*/
+    document.getElementById("cvc").addEventListener("input", atualizar_cartao);
 
 
 
