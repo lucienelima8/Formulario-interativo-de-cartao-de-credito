@@ -27,16 +27,24 @@ function atualizar_cartao() {
 
 
 
+    /*Para formatar o número do cartão*/
+    /*Replace: manipula strings*/
+    /*const format_numero = numero_cartao.replace(/(\d{4})/g, '$1 ');
+
+
+
+
+
     /*Atualizando os dados do cartão*/
 
 
-    document.getElementById("id-nome_cartao").innerHTML = nome || "Nome Titular";
+    document.getElementById("id-nome_cartao").textContent = nome || "Nome Titular";
 
-    document.getElementById("id-numero_cartao").innerHTML = numero_cartao || "XXXX XXXX XXXX XXXX";
+    document.getElementById("id-numero_cartao").textContent = numero_cartao || "XXXX XXXX XXXX XXXX";
 
-    document.getElementById("id-expira_cartao").innerHTML = mes && ano ? `${mes}/${ano}` : "MM/YY";
+    document.getElementById("id-expira_cartao").textContent = mes && ano ? `${mes}/${ano}` : "MM/YY";
 
-    document.getElementById("id-cvc_cartao").innerHTML = cvc || "CVC";
+    document.getElementById("id-cvc_cartao").textContent = cvc || "CVC";
 
 
 
@@ -63,4 +71,7 @@ function atualizar_cartao() {
 
 
 }
+
+/*Chamando a função*/
+/*atualizar_cartao();*/
 
